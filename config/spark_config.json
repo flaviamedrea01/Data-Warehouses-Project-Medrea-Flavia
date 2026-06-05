@@ -1,0 +1,12 @@
+{
+  "spark": {
+    "app_name": "AcmeWarehouseAnalyticalEngine",
+    "master": "local[*]",
+    "mongodb": {
+      "connector_packet": "native_optimized_engine"
+    }
+  },
+  "ml_parameters": {
+    "train_split_ratio": 0.8
+  }
+}
